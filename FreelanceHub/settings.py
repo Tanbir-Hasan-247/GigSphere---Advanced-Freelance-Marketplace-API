@@ -14,9 +14,9 @@ from datetime import timedelta
 import email
 from pathlib import Path
 import cloudinary
-from decouple import Config, RepositoryEnv
+from decouple import config
 
-config = Config(RepositoryEnv(".env.test"))
+# config = Config(RepositoryEnv(".env.test"))
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
