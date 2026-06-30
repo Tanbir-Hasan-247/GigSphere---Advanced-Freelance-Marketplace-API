@@ -9,11 +9,11 @@ from debug_toolbar.toolbar import debug_toolbar_urls
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="PhiMart - E-commerce API",
+        title="gig-sphere - A Freelance Marketplace API",
         default_version='v1',
-        description="API Documentation for Phimart E-commerce Project",
+        description="API Documentation for gig-sphere Freelance Marketplace Project",
         terms_of_service="https://www.google.com/policies/terms/",
-        contact=openapi.Contact(email="contact@phimart.com"),
+        contact=openapi.Contact(email="contact@gig-sphere.com"),
         license=openapi.License(name="BSD License"),
     ),
     public=True,
